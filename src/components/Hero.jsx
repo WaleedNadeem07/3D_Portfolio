@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import GlowingButton from "./glowingButton";
+import GlowingButton from "./GlowingButton";
 import cv from "./cv.pdf";
 import { ComputersCanvas } from "./canvas";
 
