@@ -20,6 +20,10 @@ import {
   chat,
   figma,
   sql,
+  qbatch,
+  lambdafish,
+  sproj,
+  website,
   ds,
   ai,
   block,
@@ -124,14 +128,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "International Inbound Sales Executive",
-    company_name: "Ibex",
-    icon: starbucks,
-    iconBg: "#383E56",
+    title: "Software Engineer Intern",
+    company_name: "Qbatch",
+    icon: qbatch,
+    iconBg: "#FFFFFF",
     date: "May 2022 - September 2022",
     points: [
-      "Sold USA companies' products to customers in the USA.",
-      "Joined a team and devised plans to meet the company's goals.",
+      "Made an E-Commerce Website in MERN.",
+      "Gained hands-on experience in Git, REST APIs, and component-based architecture",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "LambdaFISH",
+    icon: lambdafish,
+    iconBg: "#FFFFFF",
+    date: "October 2024 - June 2025",
+    points: [
+      "Worked with a US-based client on two web applications focused on AI tools and personal messaging",
+      "Developed a web app in Remix JS and Prisma to help users discover AI tools tailored to their needs, with responsive layouts using Tailwind CSS",
+      "Contributed in developing LittleGems, a Ruby on Rails + Postgres app that lets users send future-dated messages to their children, styled using Tailwind CSS"
     ],
   }
 ];
@@ -140,6 +156,23 @@ const testimonials = [
 ]
 
 const projects = [
+  {
+    name: "JAM",
+    description:
+      "JAM is a quiz app which me and my team made for our senior year project. Hosts can choose from default quizzes or make a new one. Players choose an avatar and join a room. Hosts have several options they can change for a room according to their preference. Scoreboard shown at the end of each quiz. Access at p1-jam.vercel.app",
+    tags: [
+      {
+        name: "Svelte",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sproj,
+    source_code_link: "https://github.com/TorqueKill/P01_JAM",
+  },
   {
     name: "Plan-It Pro",
     description:
@@ -173,6 +206,27 @@ const projects = [
     ],
     image: chat,
     source_code_link: "https://github.com/WaleedNadeem07/ChatWave/tree/main",
+  },
+  {
+    name: "E-Commerce Website",
+    description:
+      "Made an E-Commerce Website in MERN during my Software Engineering internship at Qbatch. The Wesbite has multiple features e.g place orders, view orders, search products. I developed this website under the supervision of professionals in the industry who made sure I followed the right coding practices and implemented the use cases.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: website,
+    source_code_link: "https://github.com/WaleedNadeem07/E-Commerce-Website",
   },
   {
     name: "UNO",
@@ -211,28 +265,7 @@ const projects = [
     ],
     image: screen,
     source_code_link: "https://www.figma.com/proto/PYchf2Iy14r8oJ2mOgWDky/Group16_Minahil?node-id=32-40&starting-point-node-id=11%3A7",
-  },
-  {
-    name: "Store Inventory System",
-    description:
-      "Made a Store Inventory System as a course project. Implemented the use cases for customer, admin and employees. Customers can view available medicines and place orders. Admin can view, add or remove employees. Restockers can view medicine quantity status and place orders for medicines running low.",
-    tags: [
-      {
-        name: "SQL",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML/CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: db,
-    source_code_link: "https://github.com/WaleedNadeem07/Store-Inventory-System",
-  },
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

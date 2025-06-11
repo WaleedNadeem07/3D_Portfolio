@@ -30,10 +30,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import qbatch from "./company/qbatch.png";
+import lambdafish from "./company/lambdafish.png"
 
 import carrent from "./carrent.png";
 import planit from "./planit.png";
 import chat from "./chat.png";
+import sproj from "./sproj.png";
+import website from "./website.png"
 import db from "./db.png"
 import uno from "./uno.png";
 import screen from "./screen.png";
@@ -44,6 +48,10 @@ export {
   logo,
   db,
   uno,
+  qbatch,
+  lambdafish,
+  sproj,
+  website,
   screen,
   backend,
   creator,
